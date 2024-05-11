@@ -1,0 +1,22 @@
+{
+  "name": "peekaboo-ui",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -C play dev"
+  },
+  "keywords": [],
+  "author": "linan1128",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vue": "^3.4.27"
+  },
+  "dependencies": {
+    "@peekaboo-ui/components": "workspace:^",
+    "@peekaboo-ui/theme-chalk": "workspace:^",
+    "@peekaboo-ui/utils": "workspace:^"
+  }
+}
