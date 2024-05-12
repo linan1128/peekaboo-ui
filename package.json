@@ -5,14 +5,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm -C play dev"
+    "dev": "pnpm -C play dev",
+    "format": "prettier --write --cache ."
   },
   "keywords": [],
   "author": "linan1128",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.4.5",
-    "vue": "^3.4.27"
+    "vue": "^3.4.27",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "prettier": "^3.2.5",
+    "@rushstack/eslint-patch": "^1.8.0"
   },
   "dependencies": {
     "@peekaboo-ui/components": "workspace:^",

@@ -1,3 +1,1 @@
-<template>
-    测试
-</template>
+<template>测试</template>
